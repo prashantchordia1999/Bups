@@ -32,17 +32,12 @@
 .centered {
 transition-delay: 4s;	
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: grey;
     z-index: 20;
-    text-decoration: underline;
-    text-shadow: 3px 3px #000;
 }
 </style>
-<style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/2e3ccc/00000000000000003b9b0939/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/2e3ccc/00000000000000003b9b0939/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/2e3ccc/00000000000000003b9b0939/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/1426a3/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/1426a3/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/1426a3/00000000000000003b9b0934/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style><script>try{Typekit.load();}catch(e){}</script>
 <script src="./files/js"></script>
 <script type="text/javascript">
 				var ajaxurl = 'http://khenposodargye.org/wordpress/wp-admin/admin-ajax.php';
@@ -87,10 +82,10 @@ transition-delay: 4s;
 <h3 class="t-intro_name">Bups</h3>
 <div class="t-intro_bg-image-paralax js-animate is-show" data-speed="0" style="transform: translate3d(0px, 0px, 0px);">
 <div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg01.jpg&quot;); z-index: 20;"></div>
- <div class="centered">JUST A CLICK</div>
+ <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
 <div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg02.jpg&quot;); z-index: 10;"></div>
-  
-<div class="t-intro_bg-image-file js-intro-slide hide" style="background-image: url(&quot;./files/images/bg04.jpg&quot;); z-index: 10;"></div>
+  <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
+<div class="t-intro_bg-image-file js-intro-slide hide" style="background-image: url(&quot;./files/images/bg04.jpg&quot;); z-index: 10;"></div><div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
   
 </div>
 <div class="t-intro_logo" aria-hidden="true">
@@ -128,61 +123,29 @@ transition-delay: 4s;
 </figure>
 </a>
 </div>
-<ul id="menu-main-menu" class="c-header_nav-list u-list-reset"><li class="c-header_nav-item js-nav-sublink"><a href="index.html" class="c-header_nav-item-label" data-transition="full">Home</a></li>
+<ul id="menu-main-menu" class="c-header_nav-list u-list-reset"><li class="c-header_nav-item js-nav-sublink"><a href="index.html" class="c-header_nav-item-label" data-transition="full" onclick= "location.href = './index.html'">Home</a></li>
 <ul class="c-header_nav-sublist u-list-reset">
 </ul>
 <li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">About</button>
 <ul class="c-header_nav-sublist u-list-reset">
-<li class="c-header_nav-subitem"><a href="aboutinitiator.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full">The Initiator</a></li>
-<li class="c-header_nav-subitem"><a href="aboutidea.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full">The Idea</a></li>
+<li class="c-header_nav-subitem" id="menubar"><a href="aboutinitiator.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './aboutinitiator.html'">The Initiator</a></li>
+<li class="c-header_nav-subitem"><a href="aboutidea.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './aboutidea.html'">The Idea</a></li>
 </ul>
 </li>
-<li class="c-header_nav-item js-nav-sublink"><a href="#" class="c-header_nav-item-label" data-transition="full">Events</a></li>
+<li class="c-header_nav-item js-nav-sublink"><a href="#" class="c-header_nav-item-label" data-transition="full" onclick= "location.href = './aboutidea.html'">Events</a></li>
+<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link"><img src=""> The Real Zones</button>
 <ul class="c-header_nav-sublist u-list-reset">
-</ul>
-<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">The Real Zones</button>
-<ul class="c-header_nav-sublist u-list-reset">
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">DJ Bars</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Pubs</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Clubs</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Restro Bars</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './alldj.html'">DJ Bars</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'">Pubs</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'">Clubs</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'">Restro Bars</a></li>
 </ul>
 </li>
-<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">Contact</button>
-<ul class="c-header_nav-sublist u-list-reset">
-</ul>
 </li>
 
 <li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">Register Now</button>
-</ul> <ul class="c-header_nav-social">
-<li class="c-header_nav-social-item">
-<a class="c-header_nav-social-link" href="http://twitter.com/" target="_blank">
-<figure class="c-header_nav-social-icon">
-<svg role="img" title="Twitter">
-<use xlink:href="http://khenposodargye.org/content/themes/khenpo-2018/assets/images/sprite.svg#social-twitter"></use>
-</svg>
-</figure>
-</a>
-</li>
-<li class="c-header_nav-social-item">
-<a class="c-header_nav-social-link" href="http://facebook.com/" target="_blank">
-<figure class="c-header_nav-social-icon">
-<svg role="img" title="Facebook">
-<use xlink:href="http://khenposodargye.org/content/themes/khenpo-2018/assets/images/sprite.svg#social-facebook"></use>
-</svg>
-</figure>
-</a>
-</li>
-<li class="c-header_nav-social-item">
-<a class="c-header_nav-social-link" href="http://youtube.com/" target="_blank">
-<figure class="c-header_nav-social-icon">
-<svg role="img" title="YouTube">
-<use xlink:href="http://khenposodargye.org/content/themes/khenpo-2018/assets/images/sprite.svg#social-youtube"></use>
-</svg>
-</figure>
-</a>
-</li>
 </ul>
+
 </nav>
 </header>
 <div>
@@ -192,20 +155,15 @@ transition-delay: 4s;
         <article class="scroll-content">
 <div class="t-home">
 <div class="t-home_wrap">
-
-
-<section class="c-home-quote" style="background-image:url(&quot;./files/images/bghome.jpg&quot;);padding-bottom: 150px;padding-top: 150px;">
+<section>
+<iframe src="./files/video.mp4" width="1350" height="600"></iframe>
+</section>
 <div class="c-home-quote_wrap o-layout">
 
 	
 <div class="c-home-quote_wrap-col o-layout_item">
 <blockquote class="c-home-quote_blockquote js-animate" data-module="Quote">
 
-
-
-<p class="c-home-quote_words js-words" style="font-size: 30px;word-spacing:5px;color: white;line-height: 40px;color: cyan;text-shadow: 2.5px 2.5px #000;">
-	
-Bups is a hub where Bangaloreans throng for the most exciting nightlife experience.<br><br> Find out what is happening at Bangalore Night-Life.  <br>Details of all bars,pubs,clubs <br> signature cocktails and signature dishes & Events  </p>
 
 </footer>
 
@@ -281,7 +239,7 @@ Bups is a hub where Bangaloreans throng for the most exciting nightlife experien
 </div>
 </div>-->
 <article class="c-home-news_item js-animate" data-inview-class="is-show-news">
-<a class="c-home-news_item-link" href="">
+<a class="c-home-news_item-link" href="" style="background-image: url(&#39;./files/images/bgbg.jpg&#39;);">
 <div class="c-home-news_item-head">
 <span class="c-home-news_item-time"><span class="u-screen-reader-text">Posted on </span><time class="entry-date published" datetime="2018-04-30T04:33:31+00:00">April 30, 2018</time></span>
 <span class="c-home-news_item-category"><span class="category-links"><span class="u-screen-reader-text">Categories </span><span class="u-text">The Social Factory</span></span></span>
@@ -297,7 +255,7 @@ Bups is a hub where Bangaloreans throng for the most exciting nightlife experien
 </a>
 </article>
 <article class="c-home-news_item js-animate" data-inview-class="is-show-news">
-<a class="c-home-news_item-link" href="">
+<a class="c-home-news_item-link" href="" style="background-image: url(&#39;./files/images/bgbg1.jpg&#39;);">
 <div class="c-home-news_item-head">
 <span class="c-home-news_item-time"><span class="u-screen-reader-text">Posted on </span><time class="entry-date published" datetime="2018-04-30T04:33:31+00:00">April 30, 2018</time></span>
 <span class="c-home-news_item-category"><span class="category-links"><span class="u-screen-reader-text">Categories </span><span class="u-text">DJ X</span></span></span>
@@ -380,7 +338,7 @@ Bups is a hub where Bangaloreans throng for the most exciting nightlife experien
 <li class="c-footer_cta-item -copyright">Ⓒ Bups 2018</li>
 </li>
 <li class="c-footer_cta-item -locomotive">
-<a href="https://locomotive.ca/" target="_blank">By Prashant Chordia</a>
+<a href="" target="_blank">By Prashant Chordia</a>
 </li>
 </ul>
 </div>
@@ -402,6 +360,16 @@ Bups is a hub where Bangaloreans throng for the most exciting nightlife experien
             window.isIe = false;
             window.isTrident = false;
             window.isFirefox = false;
+      $(function()
+      {
+      	$("menubar").on("click",function()
+      	{
+      		alert("HELLO")	;
+      	}
+      }
+
+
+
         </script>
 <script src="./files/vendors.js.download"></script>
 <script src="./files/app.js.download"></script>
