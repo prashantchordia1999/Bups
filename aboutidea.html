@@ -34,6 +34,22 @@
 	gtag('js', new Date());
 	gtag('config', 'UA-108728077-1');
 </script>
+
+<style>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+transition-delay: 4s;   
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+</style>
 <link rel="icon" href="logo">
 <meta name="theme-color" content="#da4347">
 </head>
@@ -68,8 +84,11 @@
 <h3 class="t-intro_name">Bups</h3>
 <div class="t-intro_bg-image-paralax js-animate is-show" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
 <div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg09.jpg&quot;); z-index: 20;"></div>
+ <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
 <div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg10.jpg&quot;); z-index: 10;"></div>
+ <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
 <div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg04.jpg&quot;); z-index: 10;"></div>
+ <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
 </div>
 <div class="t-intro_logo" aria-hidden="true">
 <div class="t-intro_logo-image js-intro-logo" style="background-position: -29600px 0px;"></div>
@@ -99,69 +118,34 @@
 <header class="c-header" data-module="HeaderNav">
 <nav class="c-header_nav js-header-nav">
 <div class="c-header_nav-logo">
-<a class="c-header_nav-logo-link" href="http://khenposodargye.org/" aria-label="The Official Website of Bups Rinpoche" data-transition="full">
+<a class="c-header_nav-logo-link" href="" aria-label="The Official Website of Bups Rinpoche" data-transition="full">
 <figure class="c-header_nav-logo_img" aria-hidden="true">
 <img class="c-header_nav-logo_svg-color" src="./files/khenpo-logo-color.svg">
 <img class="c-header_nav-logo_svg-white" src="./files/khenpo-logo-white.svg">
 </figure>
 </a>
 </div>
-<ul id="menu-main-menu" class="c-header_nav-list u-list-reset"><li class="c-header_nav-item js-nav-sublink"><a href="index.html" class="c-header_nav-item-label" >Home</a></li>
+<ul id="menu-main-menu" class="c-header_nav-list u-list-reset"><li class="c-header_nav-item js-nav-sublink"><a href="index.html" class="c-header_nav-item-label" data-transition="full" onclick= "location.href = './index.html'">Home</a></li>
 <ul class="c-header_nav-sublist u-list-reset">
 </ul>
 <li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">About</button>
 <ul class="c-header_nav-sublist u-list-reset">
-<li class="c-header_nav-subitem">
-	<a href="aboutinitiator.html"  class="c-header_nav-subitem-label" target="_blank"><button>The Initiator</button></a></li>
-<li class="c-header_nav-subitem">
-	<a href="aboutidea.html" class="c-header_nav-subitem-label" target="_blank">The Idea</a></li>
+<li class="c-header_nav-subitem" id="menubar"><a href="aboutinitiator.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './aboutinitiator.html'">The Initiator</a></li>
+<li class="c-header_nav-subitem"><a href="aboutidea.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './aboutidea.html'">The Idea</a></li>
 </ul>
 </li>
-<li class="c-header_nav-item js-nav-sublink"><a href="#" class="c-header_nav-item-label" data-transition="full">Events</a></li>
+<li class="c-header_nav-item js-nav-sublink"><a href="#" class="c-header_nav-item-label" data-transition="full" onclick= "location.href = './aboutidea.html'">Events</a></li>
+<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link"><img src=""> The Real Zones</button>
 <ul class="c-header_nav-sublist u-list-reset">
-</ul>
-<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">The Real Zones</button>
-<ul class="c-header_nav-sublist u-list-reset">
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">DJ Bars</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Pubs</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Clubs</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Restro Bars</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './alldj.html'">DJ Bars</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'">Pubs</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'">Clubs</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'">Restro Bars</a></li>
 </ul>
 </li>
-<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">Contact</button>
-<ul class="c-header_nav-sublist u-list-reset">
-</ul>
 </li>
 
 <li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">Register Now</button>
-</ul> <ul class="c-header_nav-social">
-<li class="c-header_nav-social-item">
-<a class="c-header_nav-social-link" href="http://twitter.com/" target="_blank">
-<figure class="c-header_nav-social-icon">
-<svg role="img" title="Twitter">
-<use xlink:href="http://khenposodargye.org/content/themes/khenpo-2018/assets/images/sprite.svg#social-twitter"></use>
-</svg>
-</figure>
-</a>
-</li>
-<li class="c-header_nav-social-item">
-<a class="c-header_nav-social-link" href="http://facebook.com/" target="_blank">
-<figure class="c-header_nav-social-icon">
-<svg role="img" title="Facebook">
-<use xlink:href="http://khenposodargye.org/content/themes/khenpo-2018/assets/images/sprite.svg#social-facebook"></use>
-</svg>
-</figure>
-</a>
-</li>
-<li class="c-header_nav-social-item">
-<a class="c-header_nav-social-link" href="http://youtube.com/" target="_blank">
-<figure class="c-header_nav-social-icon">
-<svg role="img" title="YouTube">
-<use xlink:href="http://khenposodargye.org/content/themes/khenpo-2018/assets/images/sprite.svg#social-youtube"></use>
-</svg>
-</figure>
-</a>
-</li>
 </ul>
 </nav>
 </header>
