@@ -1,0 +1,107 @@
+.bottommenu {font-size: 13px;}
+.sp-module ul > li {border: none;}
+.sp-module ul > li > a::before {
+    font-family: FontAwesome;
+    margin-right: 8px;
+  content: none;
+  font-size: 13px;
+}
+.boxsh {
+  margin; 3px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  padding: 0px;
+}
+.modblack {
+    color: white;
+    font-size: 11px;
+    background: #000 none repeat scroll 0 0;
+  	padding: 50px 30px;
+   	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.modright {
+    color: white;
+    font-size: 11px;
+    background: #4288cc none repeat scroll 0 0;
+  	padding: 20px 10px;
+   	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  	margin-bottom: 15px;
+}
+.flexicontent.fcsearch .fc_search_result_title {
+    float: left;
+    font-size: 20px;
+}
+.flexicontent.fcsearch fieldset.fc_search_result {
+    border: 1px solid transparent;
+    font-size: 13px;
+    margin: 0;
+    padding: 16px 4px;
+}
+.fc_filter_html {
+    display: inline-block;
+    margin: 10px auto 0;
+    position: relative;
+}
+.breadcrumb {
+    font-size: 11px;
+    list-style: outside none none;
+    margin: 10px auto;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+
+}
+.flexi.lineinfo.subtitle2.group {
+-webkit-box-shadow: 7px 6px 5px 0px rgba(179,173,179,1);
+-moz-box-shadow: 7px 6px 5px 0px rgba(179,173,179,1);
+box-shadow: 7px 6px 5px 0px rgba(179,173,179,1);
+  color: white;
+  background: #4288cc;
+  font-size: 15px;
+  width: 95%;
+  margin: 25px auto;
+}
+.borderline {
+  border-right : 1px solid  #f6f8f6 ;
+  line-height: 13px;
+  padding-right: 10px;
+}
+.layout-corpora .slider-title h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 120%;
+}
+.layout-corpora .slider-title .sp-smart-posttitle {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+}
+#flexicontent ul.introblock > li {
+    margin: 32px 0 5px 0;
+    padding: 0;
+    border-top: none;
+    background: none;
+    width: 100%;
+    min-height: 10px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    line-height: inherit;
+}
+.rightm {
+  margin; 15px 5px 40px 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+	padding: 25px;
+margin-top: 25px;
+background: white;
+}
+.pane {
+  margin; 15px 5px 40px 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+	padding: 25px;
+  margin-top: 15px;
+background: white;
+}
+.BURO {max-width: 600px}
+#control-label {color: #fff;}
