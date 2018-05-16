@@ -1,27 +1,10 @@
 <!DOCTYPE html>
 <head>
-
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Bups</title>
 
-<!--strt-->
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
-  <link rel="stylesheet" type="text/css" href="css/style4.css" />
-  <script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-<!--end-->
 <link rel="canonical" href="#">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
@@ -40,6 +23,25 @@
 <script src="./files/jquery-3.2.1.min.js.download"></script>
 <script src="./files/dex2eik.js.download"></script>
 
+<style>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+transition-delay: 4s;	
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: grey;
+    z-index: 20;
+    text-decoration: underline;
+    text-shadow: 3px 3px #000;
+}
+</style>
 <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/8e3108/00000000000000003b9b093b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/2e3ccc/00000000000000003b9b0939/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/2e3ccc/00000000000000003b9b0939/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/2e3ccc/00000000000000003b9b0939/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/1426a3/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/1426a3/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/1426a3/00000000000000003b9b0934/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}</style><script>try{Typekit.load();}catch(e){}</script>
 <script src="./files/js"></script>
 <script type="text/javascript">
@@ -51,22 +53,6 @@
 	gtag('js', new Date());
 	gtag('config', 'UA-108728077-1');
 </script>
-
-<style>
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.centered {
-transition-delay: 4s;   
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 20;
-}
-</style>
 <link rel="icon" href="logo">
 <meta name="theme-color" content="#da4347">
 </head>
@@ -99,13 +85,13 @@ transition-delay: 4s;
  <div id="bodytop" class="js-barba-container o-barba_container home page" data-template="home" style="visibility: visible;">
 <aside class="t-intro js-animate js-animate is-show" data-module="Intro">
 <h3 class="t-intro_name">Bups</h3>
-<div class="t-intro_bg-image-paralax js-animate is-show" data-speed="2" style="transform: translate3d(0px, 0px, 0px);">
-<div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg07.jpg&quot;); z-index: 20;"></div>
- <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
-<div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg06.jpg&quot;); z-index: 10;"></div>
- <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
-<div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg05.jpg&quot;); z-index: 10;"></div>
- <div class="centered"><img src="./files/images/downarrow.gif" width="70" height="70"></div>
+<div class="t-intro_bg-image-paralax js-animate is-show" data-speed="0" style="transform: translate3d(0px, 0px, 0px);">
+<div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg01.jpg&quot;); z-index: 20;"></div>
+ <div class="centered">JUST A CLICK</div>
+<div class="t-intro_bg-image-file js-intro-slide" style="background-image: url(&quot;./files/images/bg02.jpg&quot;); z-index: 10;"></div>
+  
+<div class="t-intro_bg-image-file js-intro-slide hide" style="background-image: url(&quot;./files/images/bg04.jpg&quot;); z-index: 10;"></div>
+  
 </div>
 <div class="t-intro_logo" aria-hidden="true">
 <div class="t-intro_logo-image js-intro-logo" style="background-position: -29600px 0px;"></div>
@@ -132,75 +118,77 @@ transition-delay: 4s;
 <div class="c-header_nav-burger-line"></div>
 </button>
 </nav>
-<!-- 
-<ul id="menu-main-menu" class="c-header_nav-list u-list-reset"><li class="c-header_nav-item js-nav-sublink"><a href="index.html" class="c-header_nav-item-label" data-transition="full" onclick= "location.href = './index.html'" target="_blank">Home</a></li>
+<header class="c-header" data-module="HeaderNav">
+<nav class="c-header_nav js-header-nav">
+<div class="c-header_nav-logo">
+<a class="c-header_nav-logo-link" href="#add logo here" aria-label="The Official Website of Bups Rinpoche" data-transition="full">
+<figure class="c-header_nav-logo_img" aria-hidden="true">
+<img class="c-header_nav-logo_svg-color" src="./files/khenpo-logo-color.svg">
+<img class="c-header_nav-logo_svg-white" src="./files/khenpo-logo-white.svg">
+</figure>
+</a>
+</div>
+<ul id="menu-main-menu" class="c-header_nav-list u-list-reset"><li class="c-header_nav-item js-nav-sublink"><a href="Bups.html" class="c-header_nav-item-label" data-transition="full">Home</a></li>
 <ul class="c-header_nav-sublist u-list-reset">
 </ul>
 <li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">About</button>
 <ul class="c-header_nav-sublist u-list-reset">
-<li class="c-header_nav-subitem" id="menubar"><a href="aboutinitiator.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './aboutinitiator.html'" target="_blank">The Initiator</a></li>
-<li class="c-header_nav-subitem"><a href="aboutidea.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './aboutidea.html'" target="_blank">The Idea</a></li>
+<li class="c-header_nav-subitem"><a href="aboutinitiator.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full">The Initiator</a></li>
+<li class="c-header_nav-subitem"><a href="aboutidea.html" target="_blank" class="c-header_nav-subitem-label" data-transition="full">The Idea</a></li>
 </ul>
 </li>
-<li class="c-header_nav-item js-nav-sublink"><a href="#" class="c-header_nav-item-label" data-transition="full" onclick= "location.href = './allevents.html'" target="_blank">Events</a></li>
-<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link"><img src=""> The Real Zones</button>
+<li class="c-header_nav-item js-nav-sublink"><a href="#" class="c-header_nav-item-label" data-transition="full">Events</a></li>
 <ul class="c-header_nav-sublist u-list-reset">
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = './alldj.html'" target="_blank">DJ Bars</a></li>   
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'" target="_blank">Pubs</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'" target="_blank">Clubs</a></li>
-<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full" onclick= "location.href = '#'" target="_blank">Restro Bars</a></li>
+</ul>
+<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">The Real Zones</button>
+<ul class="c-header_nav-sublist u-list-reset">
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">DJ Bars</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Pubs</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Clubs</a></li>
+<li class="c-header_nav-subitem"><a href="#" class="c-header_nav-subitem-label" data-transition="full">Restro Bars</a></li>
 </ul>
 </li>
+<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">Contact</button>
+<ul class="c-header_nav-sublist u-list-reset">
+</ul>
 </li>
 
-<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link"  onclick= "location.href = '#'" target="_blank">Register Now</button>
-</ul>
-
-</nav> -->
-<!--COPY THIS-->
-<header id="header" style="background-color: #000000; width: 98.5%; margin-left: 10px; margin-top: 10px">
-    <div class="container-fluid">
-      <div id="logo" class="pull-left">
-        <a href="#intro" class="scrollto"><h2 style="color: #e99825">Bups</h2></a>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-      </div>
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a onclick= "location.href = './index.html'">Home</a></li>
-          <li class="menu-has-children"><a href="">About</a>
-          <ul style="background-color: #000000">
-              <li><a onclick= "location.href = './aboutinitiator.html'">The Initiator</a></li>
-              <li><a onclick= "location.href = './aboutidea.html'">The Idea</a></li>
-          </ul>
-          </li>
-          <li><a onclick= "location.href = './allevents.html'">Events</a></li>
-          <li><a href="">The Real Zones</a>
-          <ul style="background-color: #000000">
-              <li><a onclick= "location.href = './alldj.html'">DJ Bars</a></li>
-              <li><a onclick= "location.href = './alldj.html'">Pubs</a></li>
-              <li><a onclick= "location.href = './alldj.html'">Clubs</a></li>
-              <li><a onclick= "location.href = './alldj.html'">Restro Bars</a></li>
-          </ul></li>
-          <li><a href="#">Register Now</a></li>
-          
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header>
-  <!--TILL HERE-->
-    <section></section>
+<li class="c-header_nav-item js-nav-sublink"><button type="button" class="c-header_nav-item-label js-nav-link">Register Now</button>
+</ul> </nav>
+</header>
+<div>
+	<section></section>
 </div>
 <main class="js-scroll tpl- o-main" data-scrollbar="" tabindex="1" style="overflow: hidden; outline: none;">
         <article class="scroll-content">
 <div class="t-home">
 <div class="t-home_wrap">
 
-<section class="c-home-map js-animate" data-module="HomeMap">
+
+<section class="c-home-quote" style="background-image:url(&quot;./files/images/bghome.jpg&quot;);padding-bottom: 150px;padding-top: 150px;">
+<div class="c-home-quote_wrap o-layout">
+
+	
+<div class="c-home-quote_wrap-col o-layout_item">
+<blockquote class="c-home-quote_blockquote js-animate" data-module="Quote">
+
+
+
+<p class="c-home-quote_words js-words" style="font-size: 30px;word-spacing:5px;color: white;line-height: 40px;color: cyan;text-shadow: 2.5px 2.5px #000;">
+	
+Bups is a hub where Bangaloreans throng for the most exciting nightlife experience.<br><br> Find out what is happening at Bangalore Night-Life.  <br>Details of all bars,pubs,clubs <br> signature cocktails and signature dishes & Events  </p>
+
+</footer>
+
+</blockquote>
+</div>
+</section>
+
+<section class="c-home-map js-animate" data-module="HomeMap" style="padding-top: 0px;">
 
 <div class="c-home-map_image">
-	<!--
-<div class="c-home-map_image-parallax js-animate" data-speed="-2" style="transform: translate3d(0px, -141.62px, 0px);">
+	
+<!-- class="c-home-map_image-parallax js-animate" data-speed="-2" style="transform: translate3d(0px, -141.62px, 0px);">
 <div class="o-background" style="background-image:url(&#39;http://khenposodargye.org/content/themes/khenpo-2018/assets/images/map.png&#39;)"></div>
 </div>
 </div>
@@ -263,31 +251,44 @@ transition-delay: 4s;
 </ul>
 </div>
 </div>-->
-<section class="c-home-biography" data-module="BiographyCircles">
-<div class="c-home-biography_wrap js-animate">
-<h1 class="c-home-biography_title">The Real Casanova</h1>
-<br>
-<h2 class="c-home-biography_title" style="text-align: justify;">Give your description Give your description Give your description Give your description Give your description<br> Give your description Give your description Give your description Give your description Give your description<br> Give your description Give your description Give your description</h2>
+<article class="c-home-news_item js-animate" data-inview-class="is-show-news">
+<a class="c-home-news_item-link" href="">
+<div class="c-home-news_item-head">
+<span class="c-home-news_item-time"><span class="u-screen-reader-text">Posted on </span><time class="entry-date published" datetime="2018-04-30T04:33:31+00:00">April 30, 2018</time></span>
+<span class="c-home-news_item-category"><span class="category-links"><span class="u-screen-reader-text">Categories </span><span class="u-text">The Social Factory</span></span></span>
+</div>
+<div class="c-home-news_item-content o-layout">
+<div class="c-home-news_item-content-left o-layout_item">
+<div class="c-home-news_item-image o-background" style="background-image:url(&#39;./files/images/club2.jpg&#39;)"></div>
+</div>
+<div class="c-home-news_item-content-right o-layout_item">
+<h3 class="c-home-news_item-title">A short description about event A short description about event A short description about event</h3>
+</div>
+</div>
+</a>
+</article>
+<article class="c-home-news_item js-animate" data-inview-class="is-show-news">
+<a class="c-home-news_item-link" href="">
+<div class="c-home-news_item-head">
+<span class="c-home-news_item-time"><span class="u-screen-reader-text">Posted on </span><time class="entry-date published" datetime="2018-04-30T04:33:31+00:00">April 30, 2018</time></span>
+<span class="c-home-news_item-category"><span class="category-links"><span class="u-screen-reader-text">Categories </span><span class="u-text">DJ X</span></span></span>
+</div>
+<div class="c-home-news_item-content o-layout">
+<div class="c-home-news_item-content-left o-layout_item">
+<div class="c-home-news_item-image o-background" style="background-image:url(&#39;./files/images/club1.jpg&#39;)"></div>
+</div>
+<div class="c-home-news_item-content-right o-layout_item">
+<h3 class="c-home-news_item-title">A short description about event A short description about event A short description about event</h3>
+</div>
+</div>
+</a>
+</article>
+</div>
+<div class="c-home-news_cta">
+<a class="c-home-news_cta-btn" href="" style="padding-bottom: 10px;">Explore More </a>
+</div>
 
-<div class="c-home-biography_bg-mobile">
-<div class="c-home-biography_circles">
-<div class="c-home-biography_circle">
-<div class="c-home-biography_circle-shape -red js-circle1" style="transform: translate3d(-13.7042px, 0.906344px, 0px);"></div>
-</div>
-<div class="c-home-biography_circle">
-<div class="c-home-biography_circle-shape o-background -khenpo js-circle2" style="background-image: url(&quot;./files/images/initiator.jpg&quot;); transform: translate3d(4.56808px, -0.302115px, 0px);">
-</div>
-</div>
-<div class="c-home-biography_circle-btn">
-<a class="c-home-biography_circle-btn-text" href="ur pprofile link">The Initiator</a>
-</div>
-</div>
-</div>
-</div>
 </section>
-</div>
-</div>
-
 
 <footer id="main-footer" class="c-footer js-animate">
 <div class="c-footer_wrap-head o-layout -middle">
@@ -377,23 +378,4 @@ transition-delay: 4s;
 <script src="./files/app.js.download"></script>
 
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-<script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-  <script src="js/tem.js"></script>
 </body></html>
